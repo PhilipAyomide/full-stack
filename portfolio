@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#intro" target="_top">HOME</a>
+        <a href="#about" target="_self">ABOUT</a>  
+        <a href="#services" target="_self">SERVICES</a> 
+        <a href="#contact" target="_self">CONTACT</a>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h1>Hi, I'm a Web Developer</h1>
+            <p>My name is Philip Oluwatoyin and i'm a web developer.</p>
+            <a href="#" id="learn_more">Learn More</a>
+        </section>
+
+        <section id="about">
+            <h2>PROFESSIONAL WEB DEVELOPER</h2>
+            <P>I design and develop eye catching and professional websites that's functional and interactive.</P>
+            <p>I also design graphics work which are professional and branding for your businesses.</P>
+        </section>
+
+        <section id="services">
+            <h2>OUR SERVICES</h2>
+            <article>
+            <h3>Web development</h3>
+            <p>I develop interactive webpages using HTML, CSS, JAVASCRIPT to deploy and host webpages.</p>
+            </article>
+
+            <article>
+                <h3>Graphics design</h3>
+                <p>I design eye catching graphics that gives your brand a new look and refreshing graphics.</p>
+                <p>I use photoshop to edit and design all graphics.</p>
+            </article>
+        </section>
+
+        <section id="portfolio">
+            <h2>MY PROJECT</h2>
+            <div>
+                <h3>Project 1</h3>
+                <p>Built a video compilation page</p>
+                <a href="#compilation page">View Project</a>
+            </div>
+            <div>
+                <h3>Project 2</h3>
+                <p>Built a travel agency page</p>
+                <a href="#travel agency page">View Project</a>
+            </div>
+            <div>         
+                <h3>Project 3</h3>
+                <p>Built a recipe page</p>
+                <a href="#recipe page">View Project</a>
+            </div>
+            <div>         
+                <h3>Project 4</h3>
+                <p>Built a heart icon using SVG</p>
+                <a href="#heart icon">View Project</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>CONTACT ME</h2>
+            <address>
+                <p>Email: <a href="mailto:philipayomide112@gmail.com">philipayomide112@gmail.com</a></p>
+                <p>Phone: <a href="tel:+2349037163025">09037163025</a></p>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Philip Ayomide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
