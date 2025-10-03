@@ -27,7 +27,7 @@
 
         <section id="about">
             <h2>PROFESSIONAL WEB DEVELOPER</h2>
-            <P>I design and develop eye catching and professional websites that's functional and interactive.</P>
+            <p>I design and develop eye catching and professional websites that's functional and interactive.</p>
             <p>I also design graphics work which are professional and branding for your businesses.</P>
         </section>
 
@@ -65,77 +65,73 @@
                 <li>Bachelor of Science in Economics - Obafemi Awolowo University</li>
             </ul>
         </section>
-        <article>
-            <h2>MY PROJECT</h2>
-            <h3>Project 1</h3>
-            <p>Built a video compilation page</p>
 
-            <ul>
-                <p>Technologies Used</p>
-                <li>HTML</li>
-            </ul>
-
-            <ul>
-                <p>Roles and Responsibilities</p>
-                <li>Wrote the html code</li>
-                <li>Used Github to track and maintain the code</li>
-            </ul>
-
-            <a href="./compilation page" target="_self">View Project</a>
+        <article  id="Project_1">
+            <section>
+                <h2>PROJECT 1</h2>
+                <p>Built a video compilation page</p>
+                <ul>
+                    <p>Technologies Used</p>
+                    <li>HTML</li>
+                </ul>
+                <ul>
+                    <p>Roles and Responsibilities</p>
+                    <li>Wrote the html code</li>
+                    <li>Used Github to track and maintain the code</li>
+                </ul>
+                <a href="./compilation page" target="_self">View Project</a>
+            </section>
         </article>
 
-        <article>
-            <h3>Project 2</h3>
-            <p>Built a travel agency page</p>
-
+        <article id="Project_2">
+            <section>
+                <h2>Project 2</h2>
+                <p>Built a travel agency page</p>
                 <ul>
-                <p>Technologies Used</p>
-                <li>HTML</li>
-            </ul>
-
-            <ul>
-                <p>Roles and Responsibilities</p>
-                <li>Wrote the html code</li>
-                <li>Used Github to track and maintain the code</li>
-            </ul>
-            
-            <a href="./Travel agency page">View Project</a>
+                    <p>Technologies Used</p>
+                    <li>HTML</li>
+                </ul>
+                <ul>
+                    <p>Roles and Responsibilities</p>
+                    <li>Wrote the html code</li>
+                    <li>Used Github to track and maintain the code</li>
+                </ul>
+                <a href="./Travel agency page">View Project</a>
+            </section>
         </article>
 
-        <article>
-            <h3>Project 3</h3>
-            <p>Built a recipe page</p>
-
+        <article id="Project_3">
+            <section>
+                <h2>Project 3</h2>
+                <p>Built a recipe page</p>
                 <ul>
-                <p>Technologies Used</p>
-                <li>HTML</li>
-            </ul>
-
-            <ul>
-                <p>Roles and Responsibilities</p>
-                <li>Wrote the html code</li>
-                <li>Used Github to track and maintain the code</li>
-            </ul>
-            
-            <a href="./receipe">View Project</a>
+                    <p>Technologies Used</p>
+                    <li>HTML</li>
+                </ul>
+                <ul>
+                    <p>Roles and Responsibilities</p>
+                    <li>Wrote the html code</li>
+                    <li>Used Github to track and maintain the code</li>
+                </ul>
+                <a href="./receipe">View Project</a>
+            </section>
         </article>
 
-        <article>         
-            <h3>Project 4</h3>
-            <p>Built a heart icon using SVG</p>
-
+        <article id="Project_4">  
+            <section>       
+                <h2>Project 4</h2>
+                <p>Built a heart icon using SVG</p>
+                    <ul>
+                    <p>Technologies Used</p>
+                    <li>HTML</li>
+                </ul>
                 <ul>
-                <p>Technologies Used</p>
-                <li>HTML</li>
-            </ul>
-
-            <ul>
-                <p>Roles and Responsibilities</p>
-                <li>Wrote the html code</li>
-                <li>Used Github to track and maintain the code</li>
-            </ul>
-            
-            <a href="./build a heart icon">View Project</a>
+                    <p>Roles and Responsibilities</p>
+                    <li>Wrote the html code</li>
+                    <li>Used Github to track and maintain the code</li>
+                </ul>
+                <a href="./build a heart icon">View Project</a>
+            </section>
         </article>
 
         <section id="contact">
