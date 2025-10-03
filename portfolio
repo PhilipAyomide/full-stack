@@ -17,7 +17,7 @@
         <section id="intro">
             <h1>Hi, I'm a Web Developer</h1>
             <p>My name is Philip Oluwatoyin and i'm a web developer.</p>
-            <a href="#" id="learn_more">Learn More</a>
+            <a href="#about" id="learn_more">Learn More</a>
         </section>
 
         <section id="about">
@@ -45,22 +45,22 @@
             <div>
                 <h3>Project 1</h3>
                 <p>Built a video compilation page</p>
-                <a href="#compilation page">View Project</a>
+                <a href="./compilation page">View Project</a>
             </div>
             <div>
                 <h3>Project 2</h3>
                 <p>Built a travel agency page</p>
-                <a href="#travel agency page">View Project</a>
+                <a href="./Travel agency page">View Project</a>
             </div>
             <div>         
                 <h3>Project 3</h3>
                 <p>Built a recipe page</p>
-                <a href="#recipe page">View Project</a>
+                <a href="./receipe">View Project</a>
             </div>
             <div>         
                 <h3>Project 4</h3>
                 <p>Built a heart icon using SVG</p>
-                <a href="#heart icon">View Project</a>
+                <a href="./build a heart icon">View Project</a>
             </div>
         </section>
 
