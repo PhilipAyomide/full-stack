@@ -39,27 +39,83 @@
                 <p>I use photoshop to edit and design all graphics.</p>
             </article>
         </section>
+        
+        <section>
+            <h2>SOFT SKILLS</h2>
+        </section>
+
+        <section>
+            <h2>EDUCATION & CERTIFICATIONS</h2>
+        </section>
 
         <section id="portfolio">
             <h2>MY PROJECT</h2>
             <div>
                 <h3>Project 1</h3>
                 <p>Built a video compilation page</p>
+
+                <ul>
+                    <p>Technologies Used</p>
+                    <li>HTML</li>
+                </ul>
+
+                <ul>
+                    <p>Roles and Responsibilities</p>
+                    <li>Wrote the html code</li>
+                    <li>Used Github to track and maintain the code</li>
+                </ul>
+
                 <a href="./compilation page">View Project</a>
             </div>
             <div>
                 <h3>Project 2</h3>
                 <p>Built a travel agency page</p>
+
+                 <ul>
+                    <p>Technologies Used</p>
+                    <li>HTML</li>
+                </ul>
+
+                <ul>
+                    <p>Roles and Responsibilities</p>
+                    <li>Wrote the html code</li>
+                    <li>Used Github to track and maintain the code</li>
+                </ul>
+                
                 <a href="./Travel agency page">View Project</a>
             </div>
             <div>         
                 <h3>Project 3</h3>
                 <p>Built a recipe page</p>
+
+                 <ul>
+                    <p>Technologies Used</p>
+                    <li>HTML</li>
+                </ul>
+
+                <ul>
+                    <p>Roles and Responsibilities</p>
+                    <li>Wrote the html code</li>
+                    <li>Used Github to track and maintain the code</li>
+                </ul>
+                
                 <a href="./receipe">View Project</a>
             </div>
             <div>         
                 <h3>Project 4</h3>
                 <p>Built a heart icon using SVG</p>
+
+                 <ul>
+                    <p>Technologies Used</p>
+                    <li>HTML</li>
+                </ul>
+
+                <ul>
+                    <p>Roles and Responsibilities</p>
+                    <li>Wrote the html code</li>
+                    <li>Used Github to track and maintain the code</li>
+                </ul>
+                
                 <a href="./build a heart icon">View Project</a>
             </div>
         </section>
