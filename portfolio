@@ -7,10 +7,15 @@
 </head>
 <body>
     <header>
-        <a href="#intro" target="_top">HOME</a>
-        <a href="#about" target="_self">ABOUT</a>  
-        <a href="#services" target="_self">SERVICES</a> 
-        <a href="#contact" target="_self">CONTACT</a>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -42,83 +47,96 @@
         
         <section>
             <h2>SOFT SKILLS</h2>
+            <ul>
+                <li>Teamwork</li>
+                <li>Creativity</li>
+                <li>Time management</li>
+                <li>Adaptability</li>
+                <li>Problem solving</li>
+                <li>Communication</li>
+            </ul>
         </section>
 
         <section>
             <h2>EDUCATION & CERTIFICATIONS</h2>
+            <ul>
+                <li>Web development with HTML, CSS, JAVASCRIPT - Zuri Team</li>
+                <li>Graphics design with Photoshop - Zuri Team</li>
+                <li>Bachelor of Science in Economics - Obafemi Awolowo University</li>
+            </ul>
         </section>
-
-        <section id="portfolio">
+        <article>
             <h2>MY PROJECT</h2>
-            <div>
-                <h3>Project 1</h3>
-                <p>Built a video compilation page</p>
+            <h3>Project 1</h3>
+            <p>Built a video compilation page</p>
+
+            <ul>
+                <p>Technologies Used</p>
+                <li>HTML</li>
+            </ul>
+
+            <ul>
+                <p>Roles and Responsibilities</p>
+                <li>Wrote the html code</li>
+                <li>Used Github to track and maintain the code</li>
+            </ul>
+
+            <a href="./compilation page" target="_self">View Project</a>
+        </article>
+
+        <article>
+            <h3>Project 2</h3>
+            <p>Built a travel agency page</p>
 
                 <ul>
-                    <p>Technologies Used</p>
-                    <li>HTML</li>
-                </ul>
+                <p>Technologies Used</p>
+                <li>HTML</li>
+            </ul>
+
+            <ul>
+                <p>Roles and Responsibilities</p>
+                <li>Wrote the html code</li>
+                <li>Used Github to track and maintain the code</li>
+            </ul>
+            
+            <a href="./Travel agency page">View Project</a>
+        </article>
+
+        <article>
+            <h3>Project 3</h3>
+            <p>Built a recipe page</p>
 
                 <ul>
-                    <p>Roles and Responsibilities</p>
-                    <li>Wrote the html code</li>
-                    <li>Used Github to track and maintain the code</li>
-                </ul>
+                <p>Technologies Used</p>
+                <li>HTML</li>
+            </ul>
 
-                <a href="./compilation page">View Project</a>
-            </div>
-            <div>
-                <h3>Project 2</h3>
-                <p>Built a travel agency page</p>
+            <ul>
+                <p>Roles and Responsibilities</p>
+                <li>Wrote the html code</li>
+                <li>Used Github to track and maintain the code</li>
+            </ul>
+            
+            <a href="./receipe">View Project</a>
+        </article>
 
-                 <ul>
-                    <p>Technologies Used</p>
-                    <li>HTML</li>
-                </ul>
-
-                <ul>
-                    <p>Roles and Responsibilities</p>
-                    <li>Wrote the html code</li>
-                    <li>Used Github to track and maintain the code</li>
-                </ul>
-                
-                <a href="./Travel agency page">View Project</a>
-            </div>
-            <div>         
-                <h3>Project 3</h3>
-                <p>Built a recipe page</p>
-
-                 <ul>
-                    <p>Technologies Used</p>
-                    <li>HTML</li>
-                </ul>
+        <article>         
+            <h3>Project 4</h3>
+            <p>Built a heart icon using SVG</p>
 
                 <ul>
-                    <p>Roles and Responsibilities</p>
-                    <li>Wrote the html code</li>
-                    <li>Used Github to track and maintain the code</li>
-                </ul>
-                
-                <a href="./receipe">View Project</a>
-            </div>
-            <div>         
-                <h3>Project 4</h3>
-                <p>Built a heart icon using SVG</p>
+                <p>Technologies Used</p>
+                <li>HTML</li>
+            </ul>
 
-                 <ul>
-                    <p>Technologies Used</p>
-                    <li>HTML</li>
-                </ul>
-
-                <ul>
-                    <p>Roles and Responsibilities</p>
-                    <li>Wrote the html code</li>
-                    <li>Used Github to track and maintain the code</li>
-                </ul>
-                
-                <a href="./build a heart icon">View Project</a>
-            </div>
-        </section>
+            <ul>
+                <p>Roles and Responsibilities</p>
+                <li>Wrote the html code</li>
+                <li>Used Github to track and maintain the code</li>
+            </ul>
+            
+            <a href="./build a heart icon">View Project</a>
+        </article>
 
         <section id="contact">
             <h2>CONTACT ME</h2>
