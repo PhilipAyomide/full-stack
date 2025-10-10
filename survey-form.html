@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">SIWES Survey Form</h1>
+    <p id="description">Help us understand how your <strong>SIWES</strong> program is going.</p>
+
+    <form id="survey-form">
+      <label for="name" id="name-label">First name: </label>
+      <input id="name" required type="text" placeholder="Input Full Name"><br>
+
+      <label for="email" id="email-label">Last name: </label>
+      <input id="email" type="email" required placeholder="Input Email Address"><br>
+
+      <label for="number" id="number-label">Phone Number: </label>
+      <input type="number" id="number" min="10" max="11" placeholder="Input Phone Number"><br>
+
+      <label for="dropdown">Select your place of program:
+      </label>
+      <select id="dropdown">
+        <option value="company">Company</option>
+        <option value="school">School</option>
+        <option value="institute">Institute</option>
+      </select>
+      <fieldset>
+        <legend>Have you filled your logbook yet?</legend>
+          <input type="radio" id="logbook-yes" name="logbook" value="yes">
+          <label for="logbook-yes">Yes</label>
+          <input type="radio" id="logbook-no" name="logbook" value="no">
+          <label for="logbook-no">No</label>
+          <input type="radio" id="logbook-notyet" name="logbook" value="notyet">
+          <label for="logbook-notyet">Not yet</label><br>
+      </fieldset>
+        <legend>Which programming language have you learnt?</legend>
+        <input type="checkbox" id="language" value="language">
+        <label for="language" id="python">Python</label>
+        <input type="checkbox" id="language" value="language">
+        <label for="language" id="c+">C+</label>
+        <input type="checkbox" id="language" value="language">
+        <label for="language" id="c#">C#</label>
+        <input type="checkbox" id="language" value="language">
+        <label for="language"id="javascript">Javascript</label>
+
+        <legend>Let us know if you have any issues at your place of work: </legend>
+        <textarea id="complain" cols="30" rows="10" placeholder="Write your complain"></textarea><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
