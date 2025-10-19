@@ -43,3 +43,42 @@ h1 {
   background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
   box-shadow: 0 0 20px 0 hsl(223, 59%, 31%, 0.8);
 }
+
+body {
+  background-color:#f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.color-box {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.color1 {
+  background-color: #224455;
+}
+
+.color2 {
+  background-color: rgb(255 0 122);
+}
+
+.color3 {
+  background-color: lightgreen;
+}
+
+.color4 {
+  background-color: hsl(250 50% 80%);
+}
+
+.color5 {
+  background-color: orange;
+}
