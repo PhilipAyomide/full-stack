@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 640px) {
+  #nav-links {
+    height: 20px;
+    padding: 50px;
+  }
+}
+
+body {
+  background: rgb(242, 239, 239);
+  font-family: sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#nav-bar {
+  background-color: rgb(242, 239, 239);
+  display: flex;
+}
+
+#nav-bar img {
+  width: 80px;
+  height: 80px;
+}
+
+#nav-links {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 30px;
+  padding: 20px;
+  align-self: end;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero #email {
+  display: block;
+  padding: 6px;
+  width: 200px;
+  text-align: center;
+  justify-self: center;
+}
+
+.hero form .submit {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.features .quote{
+  padding: 30px;
+}
+
+.features article h2,p {
+  margin: 0;
+}
+
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px;
+  justify-content: center;
+}
+
+.container {
+  border: solid black;
+  width: 300px;
+  text-align: center;
+}
+
+.container-head {
+  width: 100%;
+  top: 0;
+  background: grey;
+  height: 50px;
+  margin-top: 0;
+}
+
+.container-content {
+    padding: 20px;
+}

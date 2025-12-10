@@ -3,148 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#intro">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="link-head">
+                <i class="fa-solid fa-lightbulb"></i>
+                <li><a href="#main-about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#main-contact">Contact Me</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
 
+    <section class="hero" id="hero">
+        <div class="hero-left">
+            <div class="left">
+                <p class="small-text">Hi, I am</p>
+                <h1>Philip Oluwatoyin</h1>
+                <p class="skill">Full Stack Developer / Software Engineer</p>
+
+                <span class="icons"><i class="fa-regular fa-at"></i></span>
+                <span class="icons"><i class="fa-brands fa-linkedin-in"></i></span>
+                <span class="icons"><i class="fa-brands fa-github"></i></span>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <img src="profile.png" alt="profile picture" loading="lazy">
+        </div>
+
+        <div class="adjacent"></div>
+    </section>
+
+    <section class="quote">
+        <h2>IT JOURNEY</h2>
+        <p class="quote-text">I'm currently studying Full Stack Development for about 3 months now. While also gaining real-time experience on Networking from Ambrose Ali UNiversity, as a part of my 6 months SIWES training. I'm also a graphic designer with a big passion for creativity and solving real-time problems.</p>
+        <div class="quote-btn">
+            <a href="#about" class="btn">READ MORE</a>
+        </div>
+    </section>
+
     <main>
-        <section id="intro">
-            <h1>Hi, I'm a Web Developer</h1>
-            <p>My name is Philip Oluwatoyin and i'm a web developer.</p>
-            <a href="#about" id="learn_more">Learn More</a>
+        <section class="main" id="main-about">
+            <div class="about-me">
+                <h2>ABOUT ME</h2>
+            </div>
+            <div class="about-right">
+                <p>My name is Oluwatoyin Philip, I'm a final year Computer Science student of <b>Kwara State University(KWASU).</b> I'm currently on a <b>Full Stack Development</b> Journey, and expanding my skill just enough for me to make sure that this is my place in the industry.</p>
+                <p><a href="https://www.freecodecamp.org">FreeCodeCamp</a> developed my skills in Full Stack Development, which quickly turned into a new hobby. I am a Nigerian born and from Ondo State. Apart from Full Stack Development, my passion is knowing more about tech.</p>
+            </div>
+            <div class="about-btn">
+                <a href="#skills" class="btn">EXPLORE</a>
+            </div>
         </section>
 
-        <section id="about">
-            <h2>PROFESSIONAL WEB DEVELOPER</h2>
-            <p>I design and develop eye catching and professional websites that's functional and interactive.</p>
-            <p>I also design graphics work which are professional and branding for your businesses.</P>
+        <div class="line"></div>
+
+        <section class="technique">
+            <div class="technique-1">
+                <h2>DESIGN</h2>
+                <p>I can design the site based on your need and suggestions. I can also design the site from scratch and consult you during the job.</p>
+            </div>
+
+            <div class="technique-2">
+                <h2>DEVELOPMENT</h2>
+                <p>I develop my project within a given period of time as fast as possible, while giving my best to align with your needs.</p>
+            </div>
+
+            <div class="technique-3">
+                <h2>TESTING</h2>
+                <p>I test the project thoroughly to ensure there are no bugs and everything works perfectly before deployment.</p>
+            </div>
+
+            <div class="technique-4">
+                <h2>MAINTENANCE</h2>
+                <p>I provide maintenance services to ensure the project remains up-to-date and functions smoothly after deployment.</p>
+            </div>
         </section>
 
-        <section id="services">
-            <h2>OUR SERVICES</h2>
-            <article>
-            <h3>Web development</h3>
-            <p>I develop interactive webpages using HTML, CSS, JAVASCRIPT to deploy and host webpages.</p>
-            </article>
+        <div class="line"></div>
 
-            <article>
-                <h3>Graphics design</h3>
-                <p>I design eye catching graphics that gives your brand a new look and refreshing graphics.</p>
-                <p>I use photoshop to edit and design all graphics.</p>
-            </article>
-        </section>
-        
-        <section>
-            <h2>SOFT SKILLS</h2>
-            <ul>
-                <li>Teamwork</li>
-                <li>Creativity</li>
-                <li>Time management</li>
-                <li>Adaptability</li>
-                <li>Problem solving</li>
-                <li>Communication</li>
-            </ul>
-        </section>
+        <section class="main-skills" id="skills">
+            <div class="skills-me">
+                <h2>MY SKILLS</h2>
+            </div>
+            <div class="skills-right">
+                <p>USING NOW:</p>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Git & GitHub</li>
+                    <li>Adobe Photoshop</li>
+                </ul>
+            </div>
 
-        <section>
-            <h2>EDUCATION & CERTIFICATIONS</h2>
-            <ul>
-                <li>Web development with HTML, CSS, JAVASCRIPT - Zuri Team</li>
-                <li>Graphics design with Photoshop - Zuri Team</li>
-                <li>Bachelor of Science in Economics - Obafemi Awolowo University</li>
-            </ul>
-        </section>
-
-        <article  id="Project_1">
-            <section>
-                <h2>PROJECT 1</h2>
-                <p>Built a video compilation page</p>
+            <div class="skills-learning">
+                <p>LEARNING:</p>
                 <ul>
-                    <p>Technologies Used</p>
-                    <li>HTML</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Typescript</li>
+                    <li>Figma</li>
                 </ul>
-                <ul>
-                    <p>Roles and Responsibilities</p>
-                    <li>Wrote the html code</li>
-                    <li>Used Github to track and maintain the code</li>
-                </ul>
-                <a href="./compilation page" target="_self">View Project</a>
-            </section>
-        </article>
-
-        <article id="Project_2">
-            <section>
-                <h2>Project 2</h2>
-                <p>Built a travel agency page</p>
-                <ul>
-                    <p>Technologies Used</p>
-                    <li>HTML</li>
-                </ul>
-                <ul>
-                    <p>Roles and Responsibilities</p>
-                    <li>Wrote the html code</li>
-                    <li>Used Github to track and maintain the code</li>
-                </ul>
-                <a href="./Travel agency page">View Project</a>
-            </section>
-        </article>
-
-        <article id="Project_3">
-            <section>
-                <h2>Project 3</h2>
-                <p>Built a recipe page</p>
-                <ul>
-                    <p>Technologies Used</p>
-                    <li>HTML</li>
-                </ul>
-                <ul>
-                    <p>Roles and Responsibilities</p>
-                    <li>Wrote the html code</li>
-                    <li>Used Github to track and maintain the code</li>
-                </ul>
-                <a href="./receipe">View Project</a>
-            </section>
-        </article>
-
-        <article id="Project_4">  
-            <section>       
-                <h2>Project 4</h2>
-                <p>Built a heart icon using SVG</p>
-                    <ul>
-                    <p>Technologies Used</p>
-                    <li>HTML</li>
-                </ul>
-                <ul>
-                    <p>Roles and Responsibilities</p>
-                    <li>Wrote the html code</li>
-                    <li>Used Github to track and maintain the code</li>
-                </ul>
-                <a href="./build a heart icon">View Project</a>
-            </section>
-        </article>
-
-        <section id="contact">
-            <h2>CONTACT ME</h2>
-            <address>
-                <p>Email: <a href="mailto:philipayomide112@gmail.com">philipayomide112@gmail.com</a></p>
-                <p>Phone: <a href="tel:+2349037163025">09037163025</a></p>
-            </address>
-        </section>
+            </div>
+        </section>        
     </main>
 
+    <section class="main-projects" id="projects">
+        <div class="projects-me">
+            <h2>MY PROJECTS</h2>
+        </div>
+        <div class="projects-right">
+            <p>Here are some of my projects:</p>
+            <ul class="projects-grid">
+                <li>
+                    <a href="#"></a>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <img src="" alt="">
+                </li>
+                <li>And many more to come!</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="main" id="main-contact">
+        <div class="contact-me">
+            <h2>CONTACT ME</h2>
+        </div>
+        <p>If you would like to get in touch with me, please feel free to reach out through any of the following methods:</p>
+
+        <div class="line"></div>
+
+        <form action="post" class="form">
+            <input type="text" id="name" name="name" required placeholder="ENTER YOUR NAME*">
+
+            <input type="email" id="email" name="email" required placeholder="ENTER YOUR EMAIL">
+
+            <input type="number" id="phone" name="phone" placeholder="PHONE NUMBER">
+
+            <textarea id="message" name="message" rows="4" required placeholder="YOUR MESSAGE*"></textarea>
+
+            <button type="submit" class="form-btn">SUBMIT</button>
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Philip Ayomide. All rights reserved.</p>
+        <div class="symbol"></div>
+        <a href="#hero">BACK TO TOP</a>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-regular fa-envelope"></i>
+        <p><b>&copy; 2024 Philip Oluwatoyin.</b> All rights reserved.</p>
     </footer>
 </body>
 </html>
